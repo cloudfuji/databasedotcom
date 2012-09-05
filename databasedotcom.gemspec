@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "databasedotcom/version"
 
 Gem::Specification.new do |s|
-  s.name        = "databasedotcom"
+  s.name        = "databasedotcom_cloudfuji"
   s.version     = Databasedotcom::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Glenn Gillen, Danny Burkes & Richard Zhao"]
@@ -20,5 +20,4 @@ Gem::Specification.new do |s|
   s.add_dependency('json')
   s.add_development_dependency('rspec', "~>2.6")
   s.add_development_dependency('webmock')
-  s.add_development_dependency('rake', '0.8.6')
 end
